@@ -157,13 +157,13 @@ button.comingsoon {
 	background-image: url(../images/dreamteam.jpg);
 	background-size: cover;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: flex-start;
 }
 
 .about_intro h1 {
 	color: #0CCE6B;
-	mix-blend-mode: hard-light; 
+	//mix-blend-mode: hard-light; 
 }
 
 .about_text p {
