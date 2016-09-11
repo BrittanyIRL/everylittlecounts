@@ -163,7 +163,6 @@ button.comingsoon {
 
 .about_intro h1 {
 	color: #0CCE6B;
-	//mix-blend-mode: hard-light; 
 }
 
 .about_text p {
@@ -190,7 +189,7 @@ button.comingsoon {
 	font-size: 9rem;
 	font-weight: 800;
 	color: #0CCE6B;  /* Fallback: assume this color ON TOP of image */
-}*/
+/*}*/
 @media (min-width: 993px){
 	/*materialize overrides */
 	.downloadsContainer .col{
@@ -205,6 +204,7 @@ button.comingsoon {
 	}
 	.container {
 		width: 80%;
+		margin: 0 auto;
 	}
 	.aboutContainer .col{
 		padding-right: 1.5rem;
@@ -214,9 +214,30 @@ button.comingsoon {
 		margin-top: 0;
 	}
 }
+
+@media (max-width: 630px){
+	.container {
+		width: 80%;
+		margin: 0 auto;
+	}
+	h1 {
+		font-size: 3.2rem;
+	}
+	h2 {
+		font-size: 2.5rem;
+	}
+	.about_intro h1 {
+		font-size: 3.2rem;
+	}
+	p {
+		text-align: justify;
+	}
+}
+
 @media (max-width: 500px){
 	/*control size of header image on mobile */
-	.pills_intro {
+	.pills_intro,
+	.about_intro {
 		max-height: 200px;
 	}
 }
