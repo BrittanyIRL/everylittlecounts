@@ -215,7 +215,7 @@ button.comingsoon {
 	}
 }
 
-@media (max-width: 630px){
+@media (max-width: 667px){
 	.container {
 		width: 80%;
 		margin: 0 auto;
@@ -224,7 +224,7 @@ button.comingsoon {
 		font-size: 3.2rem;
 	}
 	h2 {
-		font-size: 2.5rem;
+		font-size: 2.2rem;
 	}
 	.about_intro h1 {
 		font-size: 3.2rem;
